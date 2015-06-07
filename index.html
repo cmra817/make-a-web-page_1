@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel ="stylesheet" href ="style.css">
+  <title> 
+    Beginning to Programming Udacity Notes
+  </title>
+</head>
+
+<body>
+  <!-- Table of Contents -->
+  <div class ="table-of-contents">
+    <h1> Table of Contents </h1>
+    <ol> 
+      <li> <a href = "#Lesson-1"> Lesson 1: Basic Concepts </a>
+        <ul>
+          <li> <a href = "#Web-Browsers">Web Browsers, Internet, and Servers </a></li> 
+          <li> <a href = "#HTML"> HTML </a> </li>
+          <li> <a href = "#Inline-Block"> Inline vs. Block </a> </li>
+          <li> <a href = "#Linking"> Linking </a></li>
+        </ul>
+      </li>
+      <li> <a href = "#Lesson-2"> Lesson 2: Creating a Structured Document </a>
+        <ul>
+          <li> <a href = "#DOM"> Document Object Model (DOM) </a> </li>
+          <li> <a href = "#CSS"> CSS </a> </li> 
+          <li> <a href = "#Boxify-Design"> Boxify Design </a> </li>
+        </ul>
+      </li> 
+      <li> <a href ="#Lesson-3"> Lesson 3: Adding CSS Style and HTML Structure </a> 
+        <ul>
+          <li> <a href ="#CSS2"> CSS </a> </li>
+          <li> <a href = "#Inheritance"> Inheritance </a> </li>
+          <li> <a href = "#Div-Span"> Div vs. Span </a> </li>
+          <li> <a href = "#Class-Id"> Class vs. Id </a> </li>
+          <li> <a href = "#Flex-Box"> Flex Box Layout </a> </li>
+          <li> <a href = "#Percentage-Pixel"> Percentage vs. Pixels in Sizing Layout </a> </li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  
+  <!-- Main content -->
+  <div class = "website">
+    <h1> Beginning to Programming Udacity Notes </h1>
+    
+    <!-- Lesson 1 -->
+    <div class = "main">
+      <h2> <a id = "Lesson-1"> Lesson 1: Basic Concepts </a> </h2>
+      <div class = "content">
+        <span class = "subheading"> <a id = "Web-Browsers"> Web Browsers, Internet, and Servers </a> </span>
+        <p>
+          Web browsers are what the end users see. The Internet is a compilation of HTML documents that
+          communicate with each other. Servers are where the database are stored. 
+        </p>
+      </div>
+      <div class = "content">
+        <span class = "subheading"> <a id = "HTML"> HTML </a> </span>
+        <p>
+          HTML stands for <em> Hypertext Markup Language.</em> It is the language that runs computers. It
+          tells what the computer should do, say and look like. To have this much control on the computer
+          is a <em>really</em> powerful knowledge!
+        </p>
+      </div>
+      <div class = "content">
+        <span class = "subheading"> <a id = "Inline-Block"> Inline vs. Block </a> </span>
+        <p>
+          Inline are tags that are displayed without line breaks. Block tags have an invisible box around
+          them, and normally start and end with a new line.
+        </p>
+        <p> 
+          The following are inline elements: a, br, em, b, img, span
+          <br> The following are block elements: p, div, and whaterver <em> form </em> is. (We haven't
+          covered that yet.)
+        </p> 
+      </div>
+      <div class = "content">
+        <span class = "subheading"> <a id = "Linking"> Linking </a> </span>
+        <p>
+          There are link tags that link one HTML file to another. For example, <a href = "wwww.udacity.com"> Udacity </a>
+          <br> Another example is linking using images. For example, <img src ="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuIGeJXEN1sGhE2KdBA9xujM8htfsbOg9hiwZtE_ag9mqDEh-Tgg" alt = "Frida with monkeys">
+        </p>
+      </div>
+    </div>
+    
+    <!-- Lesson 2 -->
+    <div class ="main">
+      <h2> <a id = "Lesson-2"> Lesson 2: Creating a Structured Document </a> </h2>
+      <div class = "content">
+        <span class = "subheading"> <a id = "DOM"> Document Object Model (DOM) </a> </span>
+        <p>
+          DOM is a tree-structure or a diagram that represents the hierarchical nature of a structure in 
+          a graphical form. Once you know how a DOM works or how it looks like, you can pretty much 
+          deconstruct a website just by looking at it and identify the different elements within a block
+          of elements
+        </p>
+        <p>
+          HTML is the language of the Web. We use tags to define HTML because the browser turns them into
+          elements in a tree for DOM.
+        </p>
+      </div>
+      <div class ="content" >
+        <span class = "subheading"> <a id = "CSS"> CSS </a> </span>
+        <p>
+          CSS is the styling sheet that changes how elements are displayed on the page. 
+        </p>
+      </div>
+      <div class ="content">
+        <span class = "subheading"> <a id = "Boxify-Design"> Boxify Design </a> </span>
+        <p>
+          Developed pages consist of a whole bunch of boxes. Every single element in a Web page is boxed
+          in.
+          <br> You define boxes with div tags and you use class tags to label what the boxes are. I have
+          a feeling this is so that it's easier when you apply the style in CSS.
+        </p>
+      </div>
+    </div>
+    
+    <!-- Lesson 3 -->
+    <div class = "main"> 
+      <h2> <a id = "Lesson-3"> Lesson 3: Adding CSS Style and HTML Structure </a> </h2>
+      <div class = "content">
+        <span class ="subheading"> <a id = "CSS2"> CSS </a> </span>
+        <p>
+         CSS stands for Cascading Style Sheets. It avoids repetition. CSS provides efficiency in design and updates. With CSS, we are able to create rules, and apply those rules to many elements within the website. This avoid repetition of rules and increases efficiency. 
+         <br> Another way to avoid repetition is by using the inherit value. Every now and then there will be times when you have to repeat the same value for a particular property in several CSS rule. Sometimes doing so is necessary, but there are some situations when you use the inherit value to avoid repeating yourself. 
+        </p>
+      </div>
+      <div class = "content">
+        <span class = "subheading"> <a id = "Inheritance"> Inheritance </a> </span>
+        <p>
+         Inheritance is a key feature in CSS, it relies on the ancestor-descendent relationship. Inheritance is the mechanism by which properties are applied not only to a specified element, but also to descendents.
+        </p>
+        <p>
+          Inheritance prevents certain properties from being declared over and over again in a style sheet, allowing us to write less CSS. 
+          <br> Box related elements can be inherited, but not box-related elements.
+        </p>
+      </div>
+      <div class = "content">
+        <span class = "subheading"> <a id = "Div-Span"> Div vs. Span </a> </span>
+        <p>
+          Div are block elements, whereas Spans are in-line elements. When an element is within a div, it 
+          is enclosed inside a box. However, when an element is within a span, it is not necessarily inside
+          a box. Instead, it separates it from the rest of the content without grouping it within its own
+          individual box. So any element you want to change without changing the layout should use a span.
+        </p>
+      </div>
+      <div class = "content">
+        <span class = "subheading"> <a id = "Class-Id"> Class vs. Id </a> </span>
+        <p>
+          ID is used to uniquely identify one single element in your entire website. There should only be
+          one type of ID in the website. You use the rule <span class = "rule"> #id </span> in CSS.
+          <br> Classes are used to style multiple elements that have similar styling properties. You use
+          the rule <span class = "rule"> .class </span> in CSS.
+        </p>
+      </div>
+      <div class ="content">
+        <span class = "subheading"> <a id = "Flex-Box"> Flex Box Layout </a> </span>
+        <p>
+          Flex box layout lex is a shorthand property specifying the ability of a flex item to alter 
+          its dimensions to fill available space. Flex items can be stretched to use available space 
+          proportional to their flex grow factor or their flex shrink factor to prevent overflow.
+          <br> If you want elements to be next to each other, use flex. Divs are block elements, so by 
+          default they take up the entire width of a page. Adding the rule <span class = "rule"> display: flex </span>
+          to CSS will override this behavior and let divs appear next to each other. 
+        </p>
+      </div>
+      <div class = "content">
+        <span class = "subheading"> <a id = "Percentage-Pixel"> Percentage vs. Pixels in Sizing Layout </a> </span>
+        <p>
+          You can either use % or px to define the size of your divs. The difference between the two is that
+          when you use %, the size of your divs will always be relative to the size of your window. For
+          example, if you were you shrink or expand your window, your divs will be responsive and will
+          change its size to meet the percentage size relative to the window. 
+          <br> Pixels, on the other hand, are absolute values that won't change its size relative to the
+          size of the window. 
+        </p>
+      </div>
+    </div>
+  </div>
+ 
+</body>
+  
+</html>
